@@ -227,3 +227,4 @@ fabric.properties
 
 *taxi*.csv*
 *trip*.csv*
+!taxi_zone_lookup.csv
