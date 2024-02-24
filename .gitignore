@@ -227,4 +227,13 @@ fabric.properties
 
 *taxi*.csv*
 *trip*.csv*
+
+01-docker-terraform/2_docker_sql/ny_taxi_postgres_data/*
+
+fhv_tripdata_*
+
+*.parquet
+
+bq_keyfile.json
+04-analytics-engineering/ny_taxi_rides/dbt_packages
 !taxi_zone_lookup.csv
