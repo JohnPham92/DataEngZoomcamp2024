@@ -1,0 +1,24 @@
+pg-dbt-workshop:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: root
+      password: root
+      port: 5432
+      dbname: ny_taxi
+      schema: jpham
+      threads: 4
+      keepalive_idle: 0
+
+bq-datacamp:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      project: big-query-homework
+      method: service-account
+      dataset: jpham
+      keyfile: bq_keyfile.json
+      threads: 4
