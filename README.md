@@ -1,2 +1,2 @@
-John continues his journey on upskilling
+Why not learn more?
 https://github.com/DataTalksClub/data-engineering-zoomcamp
